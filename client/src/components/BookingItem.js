@@ -9,9 +9,10 @@ function BookingItem({booking}){
         <>
         <li>{booking.guest_name}<br/>
         {booking.email_address}<br/>
-        {booking.checked_in ? 'True' : 'False'}
-        </li>
+        {booking.checked_in ? 'True' : 'False'}<br/>
         <button>Delete</button>
+        </li>
+
         </>
     )
 }

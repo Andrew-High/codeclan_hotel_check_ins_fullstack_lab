@@ -21,12 +21,7 @@ function BookingsForm({addBooking, postBooking}){
             <input onChange={onChange} type='text' id='guest_name'/>
             <label>Email</label>
             <input onChange={onChange} type='email' id='email_address'/>
-            <label>Check In</label>
-            {/* <select onChange={onChange} id='checked_in'>
-                <option disabled selected>Please Pick a choice</option>
-                <option value={true}>Yes</option>
-                <option value={false}>No</option>
-            </select> */}
+            <label>Checked In?</label>
             <input type='checkbox' onChange = {onChange} id="checked_in"></input>
             <input type='Submit' value='Add'></input>
         </form>

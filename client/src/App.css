@@ -1,1 +1,17 @@
+li {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    padding: 8px;
+    margin: 40px;
+    border-radius: 5%;
+    list-style: none;
+    text-align: center;
+  }
 
+  form {
+      margin: 5px;
+      display: flex;
+      justify-items: center;
+      justify-content: space-between;
+  }

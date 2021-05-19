@@ -1,13 +1,13 @@
 import React from 'react';
 import BookingItem from './BookingItem'
 
-function BookingsList({bookingsData, deleteBooking, removeBooking}){
+function BookingsList({bookingsData}){
 
     
     return(
         <div>
             {bookingsData.map((booking) => {
-                return (<BookingItem booking ={booking} deleteBooking = {deleteBooking} removeBooking = {removeBooking}/>)
+                return (<BookingItem booking ={booking}/>)
             })}
         </div>    
     )
